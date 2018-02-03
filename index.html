@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			button{
+				outline: none;
+			}
+			#cardinal{
+				margin: 50px auto;
+				padding: 25px 80px 25px 80px;
+				border: 0;
+				width: 900px;
+				height: 500px;
+				background-color: #F30F17;			
+			}
+			#cardinal>h1{
+				font-size: 300%;
+				color: #FFFFFF;
+			}
+			#cardinal h1 span{
+				font-size: 150%;
+				color: yellow;
+			}
+			#cardinal table{
+				margin: 0;
+				padding: 0;
+				width: 900px;
+				height: 250px;
+				border-color: transparent;
+				border-style: none;
+				text-align: center;
+			}
+			.btn{
+				padding: 0;
+				margin: 0;
+				border: 0;
+				width: 250px;
+				height: 250px;
+				outline: none;
+			}
+			#btn1{background: transparent url(images/1.png);background-size: 250px 250px;}
+			#btn2{background: transparent url(images/2.png);background-size: 250px 250px;}
+			#btn3{background: transparent url(images/3.png);background-size: 250px 250px;}
+			
+			#btn1:hover{background: transparent url(images/1.gif);background-size: 250px 250px;}
+			#btn2:hover{background: transparent url(images/2.gif);background-size: 250px 250px;}
+			#btn3:hover{background: transparent url(images/3.gif);background-size: 250px 250px;}
+			p{
+				text-align: center;
+			}
+			.ponit{
+				margin: 0 5px;
+				padding: 0;
+				border: 0;
+				width: 20px;
+				height: 20px;
+				outline: none;
+				background-color: #757574;
+				border-radius:50%;
+			}
+			.ponit:hover{
+				background-color: #000000;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div id="cardinal">
+			<h1>未开启宝箱<span>12</span>个</h1>
+			<table border="">
+				<tr>
+					<td><input type="button" name="btn1" class="btn" id="btn1" /></td>
+					<td><input type="button" name="btn2" class="btn" id="btn2" /></td>
+					<td><input type="button" name="btn3" class="btn" id="btn3" /></td>
+				</tr>
+			</table>
+			<p>
+				<input type="button" class="ponit"/>
+				<input type="button" class="ponit"/>
+				<input type="button" class="ponit"/>
+			</p>
+		</div>
+	</body>
+</html>
